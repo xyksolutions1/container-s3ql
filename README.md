@@ -103,7 +103,7 @@ Below is the complete list of available options that can be used to customize yo
 
 | Parameter         | Description                                                            | Default     | Advanced | `_FILE` |
 | ----------------- | ---------------------------------------------------------------------- | ----------- | -------- | ------- |
-| `S3QL_SETUP_TYPE` | Auto Configure Configuration each startup - Set to `MANUAL` to disable | `AUTO`      |          | |
+| `S3QL_SETUP_MODE` | Auto Configure Configuration each startup - Set to `MANUAL` to disable | `AUTO`      |          | |
 | `CACHE_PATH`      | Cache Directory Path                                                   | `/cache/`   |          | |
 | `CONFIG_FILE`     | Configuration File with credentials                                    | `s3ql.conf` |          | |
 | `CONFIG_PATH`     | Configuration Path                                                     | `/config/`  |          | |
