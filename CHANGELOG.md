@@ -1,3 +1,10 @@
+## 2.0.5 2025-12-28 <code at nfastack dot com>
+
+   ### Added
+      - S3QL 5.4.2
+      - Alpine 3.23 base
+
+
 ## 2.0.4 2025-11-13 <dave at tiredofit dot ca>
 
    ### Changed
