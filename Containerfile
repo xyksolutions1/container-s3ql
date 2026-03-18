@@ -19,7 +19,7 @@ LABEL \
 
 ARG \
     S3QL_REPO_URL="https://github.com/s3ql/s3ql" \
-    S3QL_VERSION="s3ql-5.4.2"
+    S3QL_VERSION="s3ql-6.0.0"
 
 COPY CHANGELOG.md /usr/src/container/CHANGELOG.md
 COPY LICENSE /usr/src/container/LICENSE

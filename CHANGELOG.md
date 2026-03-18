@@ -1,3 +1,9 @@
+## 2.0.6 2026-03-18 <code at nfastack dot com>
+
+   ### Added
+      - S3QL 6.0.0
+
+
 ## 2.0.5 2025-12-28 <code at nfastack dot com>
 
    ### Added
