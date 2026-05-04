@@ -5,16 +5,16 @@
 ARG \
     BASE_IMAGE
 
-FROM ${BASE_IMAGE}
+FROM docker.io/xyksolutions1/container-base:main
 
 LABEL \
         org.opencontainers.image.title="S3QL" \
         org.opencontainers.image.description="FUSE Filesystem over top of remote S3 Buckets" \
-        org.opencontainers.image.url="https://hub.docker.com/r/nfrastack/s3ql" \
-        org.opencontainers.image.documentation="https://github.com/nfrastack/container-s3ql/blob/main/README.md" \
-        org.opencontainers.image.source="https://github.com/nfrastack/container-s3ql.git" \
-        org.opencontainers.image.authors="Nfrastack <code@nfrastack.com>" \
-        org.opencontainers.image.vendor="Nfrastack <https://www.nfrastack.com>" \
+        org.opencontainers.image.url="https://hub.docker.com/r/xyksolutions1/s3ql" \
+        org.opencontainers.image.documentation="https://github.com/xyksolutions1/container-s3ql/blob/main/README.md" \
+        org.opencontainers.image.source="https://github.com/xyksolutions1/container-s3ql.git" \
+        org.opencontainers.image.authors="xyksolutions1" \
+        org.opencontainers.image.vendor="xyksolutions1" \
         org.opencontainers.image.licenses="MIT"
 
 ARG \
@@ -27,8 +27,8 @@ COPY README.md /usr/src/container/README.md
 
 ENV \
     CONTAINER_ENABLE_SCHEDULING=TRUE \
-    IMAGE_NAME="nfrastack/s3ql" \
-    IMAGE_REPO_URL="https://github.com/nfrastack/container-s3ql/"
+    IMAGE_NAME="xyksolutions1/s3ql" \
+    IMAGE_REPO_URL="https://github.com/xyksolutions1/container-s3ql/"
 
 RUN echo "" && \
     S3QL_BUILD_DEPS_ALPINE=" \
